@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+		<title>wiki.dnd</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			a {
+				text-decoration: none;
+				color: white;
+				transition: all 0.3s ease;
+			}
+			a:hover {
+				color: #F5DEB3;
+				background-color: none;
+				border-radius: 4px;
+			}
+			.insidebar {
+				max-width: 50ch;
+				margin-top: 120px;
+				margin-right: 24px;
+				margin-left: 24px;
+				margin-bottom: 24px;
+			}
+			.links {
+				margin-left: 24px;
+				margin-top: 36px;
+			}
+			.sidebar {
+				position: fixed;
+				left: 0;
+				top: 0;
+				width: 400px;
+				height: 100vh;
+				background: #333;
+				color: white;
+			}
+			body {
+				font-family: Arial, sans-serif;
+			}
+			header h1 {
+				position: absolute;
+				top: 32px;
+				left: 64px;
+				margin: 0;
+				font-size: 48px;
+			}
+			.bigbox {
+				position: relative;
+				margin-left: 425px;
+				margin-top: 25px;
+				margin-right: 25px;
+				background-color: #333;
+				color: #fff;
+				font-size: 30px;
+				padding: 15px;
+				border-radius: 5px;
+			}
+		</style>
+	</head>
+	<body style="background-color: #F5DEB3;">
+		<div class="sidebar">
+		<header>
+			<h1><a class="text" href="index.html">wiki.dnd</a></h1>
+			<div class="insidebar">
+				<!--All links-->
+				<div class="links">
+					<ul><h2>
+						<li><a href="#class">Class</a></li>
+						<li><a href="#race">Race</a></li>
+						<li><a href="#spell">Spell</a></li>
+						<li><a href="#item">Item</a></li>
+					</h2></ul>
+				</div>
+				<!--Dice D20-->
+				<img src="https://www.svgrepo.com/show/515940/dnd-5e-character-keep.svg" alt="D20 dice" style="width:240px;height:auto;position:absolute;left:72px;bottom:16px;">
+			</div>
+		</header>
+		</div>
+
+		<main>
+			<div id="class" class="bigbox">
+				<h3>Class: Fighter(Class)</h3><br><br>
+				HIT POINTS<br>
+				Hit Dice: 1d10 per warrior level.<br>
+				Hit Points at 1st level: 10 + Constitution modifier.<br>
+				Hit Points at subsequent levels: 1d10 + Constitution modifier<br> (minimum 1 total) per warrior level after 1st.<br><br>
+
+				POSSESSIONS<br>
+				Armor: All armor, shields.<br>
+				Weapons: Simple weapons, martial weapons.<br>
+				Tools: None.<br>
+				Saving Throws: Strength, Constitution.<br>
+				Skills: Choose two skills from the following:<br> Acrobatics, Athletics, Perception, Survival,<br> Intimidation, History, Insight, Animal Handling.<br><br>
+				
+				EQUIPMENT<br>
+				You begin with the following equipment in addition to the equipment gained from your background:<br>
+				a) chainmail or b) leather armor, longbow, and 20 arrows<br>
+				a) martial weapon and shield or b) two martial weapons<br>
+				a) light crossbow and 20 bolts or b) two hand axes<br>
+				a) dungeon explorer's kit or b) adventurer's kit<br>
+			</div>
+			<div id="race" class="bigbox">
+				<h3>Human(Race)</h3><br>
+				Ability Score Increase: Your ability scores each increase by 1.<br>
+				Age: Humans reach adulthood in their late teens and live less than a century.<br>
+				Alignment: Humans tend toward no particular alignment. The best and the worst are found among them.<br>
+				Size: Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.<br>
+				Speed: Your base walking speed is 30 feet.<br>
+				Languages: You can speak, read, and write Common and one extra language of your choice.<br>
+			</div>
+			<div id="spell" class="bigbox">
+				<h3>Magic Missile(Spell)</h3>
+				1st-level evocation<br><br>
+				Casting time: 1 action<br>
+				Range: 120 feet<br>
+				Components:	V, S<br>
+				Duration: Instantaneous<br><br>
+				You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.<br>
+				At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.
+			</div>
+			<div id="item" class="bigbox">
+				<h3>Bag of Holding(Item)</h3>
+				Wondrous item, uncommon<br><br>
+				This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.
+				If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.
+				<br><br>Placing a bag of holding inside an extradimensional space created by a handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one‑way only and can't be reopened.
+			</div>
+
+		</main>
+
+	</body>
+</html>
